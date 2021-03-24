@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.fontshare.com/css?f[]=sentient@400,401,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.min.css">
+    <title>OT Report Generator</title>
+</head>
+<body>
+    <header>
+        <h1>OT Report Generator</h1>
+    </header>
+
+
+    <form>
+        <label class="form__label" for="fname">First Name</label>
+        <input type="text" id="fname" name="fname">
+        <label class="form__label" for="lname">Last Name</label>
+        <input  type="text" id="lname" name="lname">
+
+
+        <label class="form__label">Text Area</label>
+        <textarea class="form__text-area">Some text...</textarea>
+
+
+        <label class="form__label">Dropdown</label>
+        <select  class="form__select"id="country" name="country">
+            <option class="form__select-option" value="" selected disabled hidden>None Selected</option>
+            <option class="form__select-option" value="ca">Canada</option>
+            <option class="form__select-option" value="usa">USA</option>
+        </select>
+
+        <input class="button form__button"type="submit" value="Submit">
+      </form>
+    
+</body>
+</html>
